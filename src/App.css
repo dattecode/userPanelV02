@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.isDarkMode{
+  background-color: #0F1C2E;
+  color: #FFFFFF;
+}
+
+.isLightMode{
+  background-color: #FFFFFF;
+  color: #0F1C2E;
+}

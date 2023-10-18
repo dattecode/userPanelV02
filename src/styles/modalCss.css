@@ -1,0 +1,71 @@
+
+.sectForm{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 5rem;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.formContainer{
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 2px solid #2196F3;
+  border-radius: 0.5rem;
+  background-color: #3F51B5;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.labelForm{
+  width: 100%;
+}
+
+.inputForm{
+  outline: none;
+}
+
+.btnForm{
+  cursor: pointer;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  border: none;
+  background-color: #2196F3;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  border: 2px solid #003f8f;
+}
+
+span{
+  font-size: 0.80rem;
+  color: orangered;
+}
+
+.closeBtn{
+  cursor: pointer;
+  border: none;
+  color: #FF4D4D;
+  background-color: #3F51B5;
+  border-radius: 90%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

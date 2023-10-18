@@ -1,0 +1,45 @@
+.subDecoration{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  border-bottom: 3px solid #003f8f;
+  box-shadow: 5px 0px 2rem #003f8f;
+}
+
+.containerHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 5rem;
+  width: 60%;
+}
+
+.addUserBtn{
+  cursor: pointer;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  border: none;
+  background-color: #757de8;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  border: 2px solid #003f8f;
+}
+
+.darkBtn{
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  background-color: #757de8;
+  border: 2px solid #003f8f;
+}
+
+.iconAdd{
+  width: 1rem;
+}
